@@ -16,14 +16,14 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 PAGES = [
     ("/", "1.0"),
-    ("/brand/priceline.html", "0.9"),
-    ("/brand/royal-caribbean.html", "0.9"),
-    ("/brand/hilton.html", "0.9"),
-    ("/brand/celebrity-cruises.html", "0.9"),
-    ("/brand/wyndham.html", "0.9"),
-    ("/privacy.html", "0.3"),
-    ("/about.html", "0.3"),
-    ("/contact.html", "0.3"),
+    ("/brand/priceline", "0.9"),
+    ("/brand/royal-caribbean", "0.9"),
+    ("/brand/hilton", "0.9"),
+    ("/brand/celebrity-cruises", "0.9"),
+    ("/brand/wyndham", "0.9"),
+    ("/privacy", "0.3"),
+    ("/about", "0.3"),
+    ("/contact", "0.3"),
 ]
 
 today = datetime.date.today().isoformat()
