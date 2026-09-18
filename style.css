@@ -1,0 +1,24 @@
+* { box-sizing: border-box; }
+body { margin:0; font:16px/1.6 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; color:#1b1f23; background:#fff; }
+.site-header { border-bottom:1px solid #e5e7eb; padding:14px 20px; display:flex; justify-content:space-between; align-items:center; }
+.logo { font-weight:700; font-size:18px; color:#0b5fff; text-decoration:none; }
+.wrap { max-width:860px; margin:0 auto; padding:28px 20px 60px; }
+h1 { font-size:26px; margin:0 0 6px; }
+h2 { font-size:19px; margin:26px 0 8px; }
+.lede { color:#57606a; margin:0 0 22px; }
+.brand-list { list-style:none; padding:0; margin:0; }
+.brand-list li { border:1px solid #e5e7eb; border-radius:10px; padding:14px 16px; margin-bottom:10px; }
+.brand-list a.bname { font-weight:600; font-size:17px; color:#0b5fff; text-decoration:none; }
+.status { display:inline-block; font-size:12px; padding:2px 8px; border-radius:999px; background:#fff4d6; color:#7a4a00; margin-left:8px; vertical-align:2px; }
+.why { color:#57606a; font-size:14px; margin-top:6px; }
+.quote { background:#f6f8fa; border-left:3px solid #d0d7de; padding:8px 12px; margin:10px 0; font-family:ui-monospace,Consolas,monospace; font-size:13px; white-space:pre-wrap; word-break:break-word; }
+.note { background:#fff8e6; border:1px solid #f0d68a; border-radius:8px; padding:12px 14px; font-size:14px; }
+.site-footer { border-top:1px solid #e5e7eb; padding:20px; color:#57606a; font-size:13px; }
+.footer-links a { margin-right:16px; color:#0b5fff; text-decoration:none; }
+.disclosure { margin:12px 0 6px; }
+
+.offer { border:1px solid #e5e7eb; border-radius:10px; padding:12px 14px; margin-bottom:10px; }
+.otext { font-weight:600; margin-bottom:6px; }
+.osrc { color:#57606a; font-size:13px; line-height:1.5; }
+.osrc code { background:#f6f8fa; padding:1px 4px; border-radius:4px; }
+.status.ok { background:#e6f4ea; color:#136c34; }
